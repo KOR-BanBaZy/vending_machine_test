@@ -27,7 +27,7 @@ class _AllProductsSectionState extends State<AllProductsSection> {
 
     if (categories.isNotEmpty) {
       // Default to "칼칼한 청양치킨" if available to match screenshot, else first
-      if (categories.contains('칼칼한 청양치킨')) {
+      if (categories.contains('탄산')) {
         selectedCategory = '칼칼한 청양치킨';
       } else {
         selectedCategory = categories.first;

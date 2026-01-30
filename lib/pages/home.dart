@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('주문 페이지')),
+      appBar: AppBar(title: const Text('서울 중량구 음료 자판기')),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(16),
@@ -19,8 +19,8 @@ class HomePage extends StatelessWidget {
               SignatureProductsSection(),
               SizedBox(height: 16),
               AllProductsSection(),
-              SizedBox(height: 16),
-              // BusinessInfoSection(),
+              SizedBox(height: 32),
+              BusinessInfoSection(),
             ],
           ),
         ),
